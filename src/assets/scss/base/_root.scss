@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    border: 1px solid orange;
+    padding-top: 5em;
+}
+
+.site-container {
+    border: solid red 1px;
+    background-color: #DAE5EC;
+}
+
+.sticky-navbar {
+    position: sticky;
+}
+

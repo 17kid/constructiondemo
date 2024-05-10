@@ -1,0 +1,39 @@
+.navbar-container {
+    z-index: 500;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 1em;
+
+    //border for looking at element
+    border: 1px solid red;
+
+    &-logo {
+        color: white;
+    }
+
+    &-links {
+        padding: .5em;
+        color: white;
+    }
+
+    &-links a {
+        margin: 1em 1em 0 0;
+
+        //border for looking at element
+        border: 1px solid orangered;
+    }
+}
+
+.navbar-button {
+    color: white;
+    padding: .5em;
+    text-decoration: underline;
+}
