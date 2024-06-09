@@ -33,7 +33,7 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "cclogo.ico",
+              "src/cclogo.ico",
               "src/assets"
             ],
             "styles": [
