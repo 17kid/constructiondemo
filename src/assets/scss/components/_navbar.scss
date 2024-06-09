@@ -13,7 +13,10 @@
     padding: 1em;
 
     &-logo {
-        color: white;
+        background: url(../../images/cclogo.png);
+        background-size: cover;
+        height: 3em;
+        width: 3em;
     }
 
     &-links {
