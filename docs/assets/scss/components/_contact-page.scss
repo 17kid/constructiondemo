@@ -1,0 +1,82 @@
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+
+    &-header {
+        text-align: center;
+        margin-bottom: 3em;
+
+        &-title {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        &-subtitle {
+            font-size: 1.5em;
+        }
+    }
+
+    &-radio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title{
+            font-size: 1.5em;
+            margin-bottom: 1em;
+        }
+    }
+
+
+    &-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .labelName{
+            margin-bottom: 1.5em;
+        }
+
+        .form-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1em;
+
+            &-label{
+                margin-bottom: .5em;
+            }
+        }
+        
+        .input-item {
+            height: 2em;
+            width: 15em;
+            background-color: #b6e3ff;
+        }
+    
+        .input-textarea {
+            width: 300px;
+            max-width: 300px;
+            height: 150px;
+            max-height: 150px;
+            background-color: #b6e3ff;
+        }
+
+        .form-submit {
+            height: 2em;
+            width: 4em;
+            border: none;
+            border-radius: .5em;
+            transition: .5s ease-in-out;
+        }
+
+        .form-submit:hover {
+            cursor: pointer;
+            background-color: #71c9ff;
+            transition: .5s ease-in-out;
+        }
+    }
+}

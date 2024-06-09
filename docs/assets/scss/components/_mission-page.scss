@@ -1,0 +1,94 @@
+.mission-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 2em;
+
+        &-title {
+            color: black;
+            font-size: 2em;
+            font-weight: 700;
+            text-shadow: .05em .05em white;
+        }
+
+        &-subtitle {
+            color: black;
+            font-size: 1.5em;
+            font-style: italic;
+            text-decoration: underline;
+            text-shadow: .05em .05em white;
+        }
+    }
+
+    &-section {
+        width:75vw;
+
+        &-image {
+            background-color: white;
+            background-image: url(../../images/constructionconsult.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 15em;
+            
+        }
+
+        &-content-1 {
+            padding-top: 2em;
+            padding-bottom: 2em;
+            margin-top: 3em;
+
+            &-title{
+                font-size: 2em;
+                font-weight: 700;
+                text-shadow: .05em .05em white;
+                margin-bottom: 1em;
+            }
+
+            &-text {
+                font-size: 1.5em;
+                font-weight: 500;
+                text-shadow: .05em .05em white;
+            }
+        }
+
+        &-content-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            min-height: 15rem;
+            padding: .5em;
+            margin-top: 1.5em;
+
+            &-image-1 {
+                width: 50%;
+                background-image: url(../../images/diversecrew.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: .5em;
+            }
+
+            &-image-2 {
+                width: 50%;
+                background-image: url(../../images/diversecrew2.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: .5em;
+            }
+
+            &-image-3 {
+                width: 60vw;
+                margin-bottom: 3em;
+                background-image: url(../../images/construction\ equipment.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
