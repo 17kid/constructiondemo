@@ -3,9 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MissionComponent } from './mission/mission.component';
 import { ServicesComponent } from './services/services.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 const routes: Routes = [
 
+  {
+    path: 'contact',
+    component: ContactPageComponent,
+  },
   {
     path: 'services',
     component: ServicesComponent,

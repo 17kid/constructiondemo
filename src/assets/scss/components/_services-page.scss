@@ -11,6 +11,7 @@
 
         &-title {
             font-size: 2em;
+            font-weight: 700;
             text-decoration: underline;
             text-shadow: .05em .05em white;
         }
@@ -22,9 +23,10 @@
 
         &-item {
             margin: 3em;
+            transition: .5s all ease-in-out;
 
             &-image-1 {
-                background-image: url(../../images/neighborhood.jpeg);
+                background: linear-gradient(0deg, rgba(156, 156, 156, 0.7), rgba(156, 156, 156, 0.7)), url(../../images/neighborhood.jpeg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 height: 25em;
@@ -35,7 +37,7 @@
             }
 
             &-image-2 {
-                background-image: url(../../images/commercial.jpeg);
+                background: linear-gradient(0deg, rgba(156, 156, 156, 0.7), rgba(156, 156, 156, 0.7)), url(../../images/commercial.jpeg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 height: 25em;
@@ -43,6 +45,23 @@
                 padding: 1em;
 
             }
+
+            &-image-3 {
+                background: linear-gradient(0deg, rgba(156, 156, 156, 0.7), rgba(156, 156, 156, 0.7)), url(../../images/renovation.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 25em;
+                width: 20em;
+                padding: 1em;
+
+            }
+        }
+
+        &-item:hover {
+            scale: 1.1;
+            border: solid black .08em;
+            transition: .5s all ease-in-out;
+            cursor: pointer;
         }
     }
 }
