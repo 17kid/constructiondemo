@@ -8,7 +8,7 @@
     <form action="contact-form">
         <div class="contact-container-radio">
             <div class="contact-container-radio-title">Select a Service</div>
-    
+            
             <label class="services-select">Commercial
                 <input type="radio" name="serviceRadio">
                 <span class="custom-radio"></span>
@@ -29,56 +29,60 @@
 
             <div class="form-item">
                 <div>
-                    <label class="businessName">Business Name (if not Applicable typeN/A)</label>  
+                    <label class="labelName">Business Name (if not Applicable type N/A)</label>  
                 </div>
                 <div>
-                    <input type="text" id="businessName" name="businessname" placeholder="Business Name..">
+                    <input class="input-item" type="text" id="businessName" name="businessname" placeholder="Business Name..">
                 </div>
             </div>
             
             <div class="form-item">
                 <div>
-                    <label class="customerFirstName">First Name</label>  
+                    <label class="labelName">First Name</label>  
                 </div>
                 <div>
-                    <input type="text" id="customerFirstName" name="firstname" placeholder="contact first name..">
+                    <input class="input-item" type="text" id="customerFirstName" name="firstname" placeholder="contact first name..">
                 </div>
             </div>
             
             <div class="form-item">
                 <div>
-                    <label class="customerLastName">Last Name</label>  
+                    <label class="labelName">Last Name</label>  
                 </div>
                 <div>
-                    <input type="text" id="customerLastName" name="lastname" placeholder="contact last name..">
+                    <input class="input-item" type="text" id="customerLastName" name="lastname" placeholder="contact last name..">
                 </div>
             </div>
             
             <div class="form-item">
                 <div>
-                    <label class="customerEmail">Email Address</label>  
+                    <label class="labelName">Email Address</label>  
                 </div>
                 <div>
-                    <input type="email" id="customerEmail" name="email" placeholder="contact email..">
+                    <input class="input-item" type="email" id="customerEmail" name="email" placeholder="contact email..">
                 </div>
             </div>
             
             <div class="form-item">
                 <div>
-                    <label class="customerPhone">Phone Number</label>  
+                    <label class="labelName">Phone Number</label>  
                 </div>
                 <div>
-                    <input type="number" id="customerPhone" name="firstname" placeholder="phonenumber..">
+                    <input class="input-item" type="tel" id="customerPhone" name="firstname" placeholder="phonenumber..">
                 </div>
             </div>
             
             <div class="form-item">
                 <div>
-                    <label class="customer">Brief description of the scope of work</label>  
+                    <label class="labelName">Brief description of the scope of work</label>  
                 </div>
                 <div>
-                    <input type="text" id="customerFirstName" name="firstname" placeholder="description..">
+                    <textarea class="input-textarea" id="customerDescription" name="customerdescription" placeholder="description.."></textarea>
                 </div>
+            </div>
+
+            <div class="form-item">
+                <button class="form-submit">Submit</button>
             </div>
 
             

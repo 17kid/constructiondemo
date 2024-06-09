@@ -12,9 +12,6 @@
     background-color: black;
     padding: 1em;
 
-    //border for looking at element
-    border: 1px solid red;
-
     &-logo {
         color: white;
     }
@@ -26,9 +23,6 @@
 
     &-links a {
         margin: 1em 1em 0 0;
-
-        //border for looking at element
-        border: 1px solid orangered;
     }
 }
 
@@ -36,4 +30,11 @@
     color: white;
     padding: .5em;
     text-decoration: underline;
+    transition: .1s all ease-in;
+}
+
+.navbar-button:hover {
+    cursor: pointer;
+    border: .1em solid white;
+    transition: .1s all ease-out;
 }
