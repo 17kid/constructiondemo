@@ -11,7 +11,8 @@
 
         &-title {
             font-size: 4em;
-            color: white;
+            color: black;
+            text-shadow: 2px 2px #71c9ff;
         }
     }
 
@@ -38,7 +39,7 @@
                 width: 50%;
                 margin-left: 1em;
                 margin-right: 1em;
-                text-shadow: 2px 2px white;
+                color: black;
                 
                 &-title {
                     color: black;
