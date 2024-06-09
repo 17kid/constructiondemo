@@ -3,18 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "construction-site": {
+    "ConstructionDemo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss",
-          "standalone": false
-        },
-        "@schematics/angular:directive": {
-          "standalone": false
-        },
-        "@schematics/angular:pipe": {
-          "standalone": false
+          "style": "scss"
         }
       },
       "root": "",
@@ -24,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/construction-site",
+            "outputPath": "dist/construction-demo",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,7 +26,7 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/cclogo.ico",
+              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -70,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "construction-site:build:production"
+              "buildTarget": "ConstructionDemo:build:production"
             },
             "development": {
-              "buildTarget": "construction-site:build:development"
+              "buildTarget": "ConstructionDemo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "construction-site:build"
+            "buildTarget": "ConstructionDemo:build"
           }
         },
         "test": {
@@ -94,7 +87,7 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
+              "src/cclogo.ico",
               "src/assets"
             ],
             "styles": [
